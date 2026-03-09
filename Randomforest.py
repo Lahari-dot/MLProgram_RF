@@ -14,7 +14,7 @@ RandomForestRegModel = RandomForestRegressor()
 RandomForestRegModel.fit(X, y)
 
 # Prediction
-X_marks = [[70]]
+X_marks = [[80]]
 prediction = RandomForestRegModel.predict(X_marks)
 
 print("Predicted value:", prediction)
