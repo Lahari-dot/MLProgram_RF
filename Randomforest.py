@@ -4,7 +4,7 @@ import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
 
 # Sample dataset (you can replace later)
-X = [[10], [20], [30], [40], [50], [60]]
+X = [[10], [20], [30], [40], [50], [60],[70],[75]]
 y = [15, 25, 35, 45, 55, 65]
 
 # Create model
@@ -14,7 +14,7 @@ RandomForestRegModel = RandomForestRegressor()
 RandomForestRegModel.fit(X, y)
 
 # Prediction
-X_marks = [[80]]
+X_marks = [[30]]
 prediction = RandomForestRegModel.predict(X_marks)
 
 print("Predicted value:", prediction)
